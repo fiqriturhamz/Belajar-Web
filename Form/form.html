@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Belajar Membuat Form</title>
+</head>
+
+<body>
+    <form>
+        <table border="1" cellspacing="0" cellpadding="10">
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td><input type="text" id="username"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="password">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label>Pilih Jenis Kelamin</label>
+                </td>
+                <td>
+                    <input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label>Hobi</label>
+                </td>
+
+
+                <td>
+                    <input type="checkbox" id="coding"><label for="coding">Coding</label>
+                    <input type="checkbox" id="olahraga"><label for="olahraga">Olahraga</label>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>Deskripsi</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Kota</label>
+                </td>
+                <td>
+                    <select>
+                        <optgroup>
+                            <option>Bandung</option>
+                            <option>Jakarta</option>
+                            <option>Tangerang</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+
+                <td colspan="2">
+                    <button type="submit">Kirim!</button>
+                </td>
+
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
